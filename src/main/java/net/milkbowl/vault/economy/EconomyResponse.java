@@ -20,8 +20,8 @@ import net.milkbowl.vault.events.BalanceUpdateEvent;
  * Indicates a typical Return for an Economy method.  
  * It includes a {@link ResponseType} indicating whether the plugin currently being used for Economy actually allows
  * the method, or if the operation was a success or failure.
- *
  */
+
 public class EconomyResponse {
 
     /**
