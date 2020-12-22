@@ -75,6 +75,7 @@ public class EconomyResponse {
      * @param errorMessage Error message if necessary (commonly null)
      */
     public EconomyResponse(String accountName, double amount, double balance, ResponseType type, String errorMessage) {
+        System.out.println("resp 1");
         this.accountName = accountName;
         this.amount = amount;
         this.balance = balance;
@@ -91,6 +92,7 @@ public class EconomyResponse {
      * @param errorMessage Error message if necessary (commonly null)
      */
     public EconomyResponse(double amount, double balance, ResponseType type, String errorMessage) {
+        System.out.println("resp 2");
         this.accountName = "";
         this.amount = amount;
         this.balance = balance;

@@ -16,6 +16,7 @@ public class BalanceUpdateEvent extends Event {
     
     public BalanceUpdateEvent(EconomyResponse response) {
         
+        System.out.println("debug event");
         this.response  = response;
         this.previousBalance = response.balance + response.amount;
         this.accountName = response.accountName;
